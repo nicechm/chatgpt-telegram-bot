@@ -1,0 +1,25 @@
+{
+    "debug": 1, // debug level: 0 - no debug, 1 - debug, 2 - verbose debug
+    "bot": {
+      "token": "6244632809:AAHnN5QCMLMWGTEtTx9vxq8gZH8oTJavueA",
+      "groupIds": [], // allowed group ids, leave empty to allow all
+      "userIds": ["39884357"], // allowed user ids, leave empty to allow all
+      "chatCmd": "/chat"
+    },
+    "api": {
+      "type": "official", // "browser", "official", "unofficial": the type of the chatgpt api to use
+      "official": {
+        "apiKey": "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",
+        "apiBaseUrl": "",
+        "apiReverseProxyUrl": "",
+        "completionParams": {},
+        // You can override the default (make the model behave like ChatGPT) prompt prefix and suffix
+        // (see https://github.com/RainEggplant/chatgpt-telegram-bot/issues/11)
+        "promptPrefix": "",
+        "promptSuffix": "",
+        "userLabel": "",
+        "assistantLabel": ""
+      },
+    }
+  }
+  
